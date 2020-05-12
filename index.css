@@ -1,10 +1,10 @@
-.contained {
+.container1 {
   position: relative;
   max-width: 100%;
   /* Maximum width */
 }
 
-.contained .contents {
+.container1 .contents {
   position: absolute;
   /* Position the background text */
   top: 0;
@@ -17,6 +17,8 @@
   /* Grey text */
   width: 100%;
   /* Full width */
-  padding: 20px;
+  padding-top: 10px;
+  padding-left: 15px;
+  padding-right: 10px;
   /* Some padding */
 }
