@@ -1,24 +1,37 @@
 .container1 {
   position: relative;
   max-width: 100%;
-  /* Maximum width */
 }
 
 .container1 .contents {
   position: absolute;
-  /* Position the background text */
   top: 0;
-  /* At the bottom. Use top:0 to append it to the top */
   background: black;
-  /* Fallback color */
   background: rgba(0, 0, 0, 0.5);
-  /* Black background with 0.5 opacity */
   color: #f1f1f1;
-  /* Grey text */
   width: 100%;
-  /* Full width */
   padding-top: 10px;
   padding-left: 15px;
   padding-right: 10px;
-  /* Some padding */
+}
+.container2 {
+  display: flex;
+  flex-wrap: wrap;
+}
+.container2 > div {
+  padding: 20px;
+}
+body {background-color: #ccffee !important;}
+
+.delivered:after {
+  content: " - delivered";
+}
+.delivered {
+  color: lightgray;
+}
+.finished:after {
+  content: " - finished"
+}
+.finished {
+  color: gray;
 }
