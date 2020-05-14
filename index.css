@@ -35,3 +35,8 @@ body {background-color: #ccffee !important;}
 .finished {
   color: gray;
 }
+@media screen and (min-width: 900px) {
+  #backup {
+    display: none
+  }
+}
